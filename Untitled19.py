@@ -10,7 +10,7 @@ import pymysql
 import pandas as pd
 
 def connect_to_database():
-    return pymysql.connect(host='172.16.50.150', user='root', password='fz@2023&', database='input')
+    return pymysql.connect(host='###', user='###', password='###', database='###')
 
 def get_table_columns(cursor, table_name):
     cursor.execute(f"SHOW COLUMNS FROM {table_name}")
